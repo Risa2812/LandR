@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>株式会社L＆R</title>
+    <meta name="description" content="サンプル会社サイト">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <!--ファビコン-->
+    <link rel="icon" type="images/png" href="images/favicon.png">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Zen+Kaku+Gothic+Antique&display=swap"
+        rel="stylesheet">
+
+    <!--オリジナルCSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header>
+        <div class="inner">
+        <div class="logo">
+            <a href="index.html"><img src="images/L＆R.png" alt="株式会社L＆R"></a>
+            
+        </div>
+        <button class="hamburger" id="hamburger">
+            ☰
+        </button>
+        </div>
+
+        <nav class="main-nav" id="nav">
+            <ul>
+                <li><a href="#">取り扱いサービス</a></li>
+                <li><a href="#">相談の流れ</a></li>
+                <li><a href="#">店舗案内</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+
+        </header>
+    <!--メインビジュアル-->
+    <section class="mainvisual">
+        <img src="images/slide_1.jpg" alt="トップ画像">
+        <div class="catchcopy">
+            <h2 class="title">家族の未来に、安心と信頼を。</h2>
+            <p>地域密着型の総合保険代理店</p>
+        </div>
+    </section>
+    <!--取り扱いサービス-->
+    <main>
+        <section class="service">
+            <div class="inner">
+                <h2>取り扱いサービス</h2>
+                <div class="service-card-wrapper">
+                    <div class="card">
+                        <img src="images/seimei.jpg" alt="生命保険">
+                        <h3 class="h3-line">生命保険</h3>
+                        <p>万が一に備える安心の保障を提供します</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/iryou.jpg" alt="医療保険">
+                        <h3 class="h3-line">医療保険</h3>
+                        <p>入院や通院の備えに</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/car.jpg" alt="自動車保険">
+                        <h3 class="h3-line">自動車保険</h3>
+                        <p>万が一の事故に備えて</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--相談の流れ-->
+        <section class="flow">
+            <div class="inner">
+                <h2>ご相談の流れ</h2>
+                <div class="list">
+                    <ol>
+                        <li>
+                            <figure><img src="images/yoyaku.png" alt="お電話"></figure>
+                            <p>1.ご来店またはお電話にてご予約</p>
+                        </li>
+
+                        <li>
+                            <figure><img src="images/hearing.png" alt="ヒアリング"></figure>
+                            <p>2.お客様のご要望をヒアリング</p>
+                        </li>
+
+                        <li>
+                            <figure><img src="images/teian.png" alt="提案"></figure>
+                            <p>3.最適な保険プランをご提案</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        </section>
+        <!--店舗案内-->
+        <section class="access">
+            <div class="inner">
+                <h2>店舗案内</h2>
+                <div class="map">
+                    <!--googlemap埋め込み-->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10317.081631589004!2d139.53455851175528!3d35.46278592312518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601859e6d6fe174f%3A0x7db6f7dcd7a6159!2z6KW_5Y-LIOS6jOS_o-W3neW6lw!5e0!3m2!1sja!2sjp!4v1746512361620!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <table class="info">
+                        <tr>
+                            <th>住所</th>
+                            <td>〒000-0000<br>神奈川県○○市○○1-2-3</td>
+                        </tr>
+                        <tr>
+                            <th>電話番号</th>
+                            <td>0000-00-0000</td>
+                        </tr>
+                        <tr>
+                            <th>営業時間</th>
+                            <td>10:00～19:00</td>
+                        </tr>
+                        <tr>
+                            <th>定休日</th>
+                            <td>年中無休</td>
+                        </tr>
+                        <tr>
+                            <th>施設</th>
+                            <td><img src="images/p.png" alt="駐車場">
+                                <p>8台</p><img src="images/mokuba.png" alt="キッズスペース">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!--ニュース-->
+
+        <div class="news">
+            <h2>ニュース</h2>
+            <ul class="list">
+                <li><a href="#"><time datetime="2025-5-1">2025.5.1 </time>
+                        <p>保険相談会を開催します。</p>
+                    </a>
+                </li>
+                <li><a href="#"><time datetime="2025-4-15">2025.4.15</time>
+                        <p>ゴールデンウィーク期間中の営業について</p>
+                    </a>
+                </li>
+                <li><a href="#"><time datetime="2025-3-20">2025.3.20</time>
+                        <p>新しい医療保険プランを追加しました。</p>
+                    </a>
+                </li>
+                <li><a href="#"><time datetime="2025-2-22">2025.2.22</time>
+                        <p>ホームページリニューアルしました。</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="news-btn">ニュース一覧</a>
+        </div>
+
+    </main>
+    <!--フッター-->
+    <footer>
+        <div class="inner">
+            <div class="footer">
+                <p class="logo"><a href=""><img src="images/L＆R.png" alt="株式会社L＆R"></a></p>
+                <div class="footer-access">
+                    <p>〒000-0000 神奈川県○○市○○1-2-3｜ TEL: 0000-00-0000</p>
+                    <small>&copy; 2025 L&R Co., Ltd.</small>
+                </div>
+    </footer>
+    <!--Javascript-->
+                <script src="script.js" defer></script>
+
+</body>
+
+</html>
